@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first_task</title>
+</head>
+<body>
+    <h1>Enter your information</h1>
+    <form action="/process" method="post">
+        <input type="text" name="word_for_reverse" id="word_for_reverse" placeholder="word for reverse">
+
+        <br>
+
+        <input type="text" name="word_for_uppercase" id="word_for_uppercase" placeholder="word for word_for_uppercase">
+        
+        <br>
+
+        <input type="submit" value="submit">
+    </form>
+    <h2>Result</h2>
+    <p>reverse result = {{ reverse_result }}</p>
+    <p>uppercase result = {{ uppercase_result }}</p>
+</body>
+</html>
